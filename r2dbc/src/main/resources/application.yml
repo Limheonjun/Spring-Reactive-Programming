@@ -1,0 +1,8 @@
+server.port: 8092
+
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://192.168.1.95:3306/r2dbc
+    username: root
+    password: 1234
+
